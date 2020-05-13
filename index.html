@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Final</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="h1">Final Exam</h1>
+      <h2 class="h2">Find all even numbers between two numbers</h2>
+    </header>
+
+    <main>
+      <form class="form">
+        <div style="float:none;margin:0 50px 0 50px;">
+          <label for= "numone" class="label">Number 1:</label>
+          <input type="text" class="form-input" name="numone" id="numone">
+        </div>
+        <div style="float:left;margin-right:50px;margin-left:50px;">
+          <label for= "numtwo" class="label">Number 2:</label>
+          <input type="text" class="form-input" name="numtwo" id="numtwo">
+        </div>
+      </form>  
+
+      <form class="form">
+        <div style="float:left;margin-left:50px; margin-right:0px">
+          <input type="button" class="button" value="Submit" onClick="printEvenNumbers()" id="print"/>
+          <div id="output"></div>
+          <div id="output2"></div> 
+        </div>
+      </form>
+
+
+     </main>   
+
+    <script src="app.js"></script>
+  </body>
+</html>
