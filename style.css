@@ -68,3 +68,14 @@ form{
     margin: auto;
   }
   
+label{ 
+    display:table; 
+    clear:both; 
+  }
+  
+  @media screen and (max-width: 900px){  
+  form{ 
+     flex-wrap: wrap;
+     margin:auto;
+    }
+  }

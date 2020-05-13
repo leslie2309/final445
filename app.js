@@ -6,14 +6,14 @@ function printEvenNumbers() {
     var i, j, c, numone, numtwo,count;
     var arr = [];
     count = 0;
-    //get the numone and numtwo value from form
+    
    numone = parseInt(document.getElementById('numone').value);                
    numtwo = parseInt(document.getElementById('numtwo').value);
   
     if (numone <= numtwo){
       if ((2 <= numone) && (numone <= 100)){
         if((2 <= numtwo) && (numtwo <= 100)){
-          //loop till i equals to end
+         
           for (i = numone; i <= numtwo; i++) {
             if (i % 2 == 0){
               arr.push(i)
@@ -38,7 +38,7 @@ function printEvenNumbers() {
     else{
       if ((2 <= numone) && (numone <= 100)){
         if((2 <= numtwo) && (numtwo <= 100)){
-          //loop till i equals to end
+        
           for (i = numtwo; i <= numone; i++) {
             if (i % 2 == 0){
                 arr.push(i)
