@@ -9,8 +9,8 @@ function printEvenNumbers() {
     
    numone = parseInt(document.getElementById('numone').value);                
    numtwo = parseInt(document.getElementById('numtwo').value);
-  
     if (numone <= numtwo){
+        
       if ((2 <= numone) && (numone <= 100)){
         if((2 <= numtwo) && (numtwo <= 100)){
          
@@ -26,12 +26,12 @@ function printEvenNumbers() {
             output2.innerHTML = '<h3>' + outputStr2 + '<h3>'
         }
         else{
-          const outputStr = 'Invalid input, please try again.'
-          output.innerHTML = '<h3>' + outputStr + '<h3>'}    
+          const outputStr = 'Number 2 input' + n + ' is not a valid number'
+          output.innerHTML = '<h5>' + outputStr + '<h5>'}    
         }
       else{
-        const outputStr = 'Invalid input, please try again.'
-        output.innerHTML = '<h3>' + outputStr + '<h3>'
+        const outputStr = 'Number 1 input ' + n + ' is not a valid number'
+        output.innerHTML = '<h5>' + outputStr + '<h5>'
       }
   
     }
@@ -51,12 +51,13 @@ function printEvenNumbers() {
             output2.innerHTML = '<h3>' + outputStr2 + '<h3>'
         }
         else{
-          const outputStr = 'Invalid input, please try again.'
-          output.innerHTML = '<h3>' + outputStr + '<h3>'}    
+          const outputStr = 'Number 2 input ' + numtwo + ' is not a valid number'
+          output.innerHTML = '<h5>' + outputStr + '<h5>'}    
         }
       else{
-        const outputStr = 'Invalid input, please try again.'
-        output.innerHTML = '<h3>' + outputStr + '<h3>'
+
+        const outputStr = 'Number 1 input ' + numone + ' is not a valid number'
+        output.innerHTML = '<h5>' + outputStr + '<h5>'
       }
     
     }
